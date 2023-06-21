@@ -1,6 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 import { styled } from 'styled-components';
+import Nav from './Nav';
 
 const Header = () => {
   return ( 
@@ -8,13 +9,14 @@ const Header = () => {
     <NavLink to="/">
         <img src="./images/logo.png" alt="my logo img"/>
     </NavLink>
+    <Nav />
   </MainHeader>);
 };
 
 const MainHeader = styled.header`
     padding: 0 4.8rem;
     height: 10 rem;
-    backgroud-color: ${({ theme }) => theme.colors.bg};
+    background-color: ${({ theme }) => theme.colors.bg};
     display: flex;
     justify-content: space-between;
     align-items: center;
