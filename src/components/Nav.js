@@ -90,7 +90,7 @@ const Nav = () => {
                 }
             }
 
-            .active .mobile-nav-icon{
+            .active .mobile-nav-icon {
                 display: none;
                 font-size: 4.2rem;
                 position: absolute;
