@@ -78,7 +78,7 @@ const Nav = () => {
             padding: 0.8rem 1.4rem;
         }
 
-        @media (max-width: ${({ theme }) => theme.media.mobile}){
+        @media (max-width: ${({ theme }) => theme.colors.mobile}){
             .mobile-navbar-btn {
                 display: inline-block;
                 z-index: 9999;
